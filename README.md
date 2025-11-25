@@ -5,6 +5,13 @@ It is a streamlit hosted app. It contains a XGB model.
 
 ## Run the app
 * Option 1: Visit this [website]() to interact with the app.
-* Option 2: Clone this repo and in the repo root run `streamlit run Welcome.py`
+* Option 2: Run locally. After cloning the repo run from repo root
+    ```
+    python3 -m venv .venv
+    source .venv/bin/activate
+    pip install -r requirements.txt
+    streamlit Welcome.py
+    
+    ```
 
 **Explaination of the model, data, and limitations are in the app**
