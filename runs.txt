@@ -1,1 +1,91 @@
+------------------------------Model Performance Metrics------------------------------
+Timestamp: 2025-11-25T19:09:16
+Log Loss: 0.5052135101725871
+AUC: 0.8165555555555556
+F1 Score: 0.6486486486486487
+Best Params:
+  alpha: 0
+  colsample_bytree: 0.8
+  lambda: 1
+  learning_rate: 0.05
+  max_depth: 3
+  min_child_weight: 1
+  n_estimators: 200
+  subsample: 0.8
+
+------------------------------Model Performance Metrics------------------------------
+Timestamp: 2025-11-26T09:46:27
+Log Loss: 0.5172025694543003
+AUC: 0.8058888888888888
+F1 Score: 0.6206896551724138
+Best Params:
+  alpha: 0
+  colsample_bytree: 0.8
+  lambda: 1
+  learning_rate: 0.01
+  max_depth: 5
+  min_child_weight: 1
+  n_estimators: 500
+  subsample: 0.8
+
+
+------------------------------Model Performance Metrics------------------------------
+Timestamp: 2025-11-26T11:04:36
+Log Loss: 0.5450000120032142
+AUC: 0.8071213425129087
+F1 Score: 0.718562874251497
+Best Params:
+  alpha: 0
+  colsample_bytree: 0.66
+  lambda: 0.1
+  learning_rate: 0.01
+  max_depth: 5
+  min_child_weight: 1
+  n_estimators: 500
+  subsample: 0.8
+
+------------------------------Model Performance Metrics------------------------------
+Timestamp: 2025-11-26T11:35:40
+Log Loss: 0.5450000120032142
+AUC: 0.8071213425129087
+F1 Score: 0.718562874251497
+Best Params:
+  alpha: 0
+  colsample_bytree: 0.66
+  lambda: 0.1
+  learning_rate: 0.01
+  max_depth: 5
+  min_child_weight: 1
+  n_estimators: 500
+  subsample: 0.8
+
+------------------------------Model Performance Metrics------------------------------
+Timestamp: 2025-11-26T11:48:48
+Log Loss: 0.552834519702029
+AUC: 0.7921686746987953
+F1 Score: 0.7314285714285714
+Best Params:
+  alpha: 0
+  colsample_bytree: 0.66
+  lambda: 0.1
+  learning_rate: 0.01
+  max_depth: 5
+  min_child_weight: 1
+  n_estimators: 500
+  subsample: 0.8
+
+------------------------------Model Performance Metrics------------------------------
+Timestamp: 2025-11-26T12:02:37
+Log Loss: 0.552834519702029
+AUC: 0.7921686746987953
+F1 Score: 0.7314285714285714
+Best Params:
+  alpha: 0
+  colsample_bytree: 0.66
+  lambda: 0.1
+  learning_rate: 0.01
+  max_depth: 5
+  min_child_weight: 1
+  n_estimators: 500
+  subsample: 0.8
 
