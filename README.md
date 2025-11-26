@@ -14,3 +14,5 @@ It is a streamlit hosted app. It contains a XGB model.
     ```
 
 **Explaination of the model, data, and limitations are in the app**
+---
+AI was used so assist in parts of this project
