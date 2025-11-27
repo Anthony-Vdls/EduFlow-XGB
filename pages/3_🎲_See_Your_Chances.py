@@ -118,10 +118,11 @@ def load_model():
     And returns an ordered list of the features used in it
     """
     # load params from notebook models
-    with open("best_params.json") as f:
+    with open("./data/best_params.json") as f:
         best_params = json.load(f)
-    with open("top_features.json") as f:
+    with open("./data/top_features.json") as f:
         top_features = json.load(f)
+
 
     # load data 
     df = pd.read_csv("data/epcg23.csv")
