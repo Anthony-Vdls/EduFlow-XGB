@@ -126,6 +126,20 @@ def load_model():
     # load data 
     df = pd.read_csv("data/epcg23.csv")
 
+    required_cols = ['STRTYR', 'DGRYR', 'STRTMN', 'HDMN', 'DGRDG', 'WRKG', 'SALARY', 'OCEDRLP']
+
+    missing = [c for c in required_cols if c not in df.columns]
+
+    if missing:
+        st.error(
+            "The data file `data/epcg23.csv` on this server is missing required "
+            f"columns: {missing}. This usually means the CSV in the deployed app "
+            "is not the same as the one you used locally."
+        )
+        st.write("Here are the columns I *do* see in the deployed CSV:")
+        st.write(list(df.columns))
+        st.stop()
+
     # label y
     y_variables = ['DGRDG','WRKG','SALARY','OCEDRLP','DGRYR','STRTYR','STRTMN','HDMN']
 
