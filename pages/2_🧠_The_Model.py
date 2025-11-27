@@ -356,3 +356,34 @@ feeds them into this reduced model, and uses the resulting probability as your
 estimated chance of being in an in-field job within about a year of graduating.
 """
 )
+
+
+st.header("7. Limitations of this model")
+
+st.markdown(
+    """
+**1. Its a sample of people who choose to take the survey.** 
+
+Like most survey data its subject to volunteer bias. The choice of doing this survey could be tied to thing that this survey is measuring, and this case it is what is most likely happening. Either a person doesnt fill out this survey because they are not satisified with there schooling, or they are to busy from all their success to do so. The first scenerio is more likely
+
+---
+
+**2. It captures correlations, not causes.**  
+
+The model learns **associations** between features (age, field, earnings, family situation, etc.)
+and being in-field.  
+It cannot answer *“if I change X, will Y definitely improve?”*.  
+There are always unobserved factors like  networking, timing, and luck are not modeled.
+
+---
+
+**3. This model will not age well unless updated.**   
+
+The data reflect graduates and labor market conditions **around 2023**.  
+Job markets, demand by field, and the impact of AI and remote work can change over time.  
+Unless the model is retrained on newer data, its accuracy will degrade.  
+Good news - with this pipeline that made this model, it wouldnt be to hard. 
+
+"""
+)
+
