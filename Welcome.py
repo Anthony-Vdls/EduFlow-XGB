@@ -7,6 +7,7 @@ st.set_page_config(
 )
 
 st.title("Education Exploration")
+st.markdown("Source code for this website: [here](https://github.com/Anthony-Vdls/EduFlow-XGB)")
 st.markdown('---')
 st.markdown(
     """
