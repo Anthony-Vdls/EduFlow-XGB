@@ -6,7 +6,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("Education Exploration")
+st.title("Employment Predictor")
 st.markdown("Source code for this website: [here](https://github.com/Anthony-Vdls/EduFlow-XGB)")
 st.markdown('---')
 st.markdown(
