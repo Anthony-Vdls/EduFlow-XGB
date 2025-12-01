@@ -16,9 +16,9 @@ st.set_page_config(page_title="The Model", page_icon="🧠")
 def train_reduced_model():
     """Recreate the reduced XGBoost model and compute metrics + feature importances."""
     # --- load tuned params & selected features ---
-    with open("best_params.json") as f:
+    with open("./data/best_params.json") as f:
         best_params = json.load(f)
-    with open("top_features.json") as f:
+    with open("./data/top_features.json") as f:
         top_features = json.load(f)
 
     # --- load raw NSCG microdata ---
